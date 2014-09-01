@@ -1,4 +1,4 @@
-describe('API General Test', function () {
+describe('General Test', function () {
   it('should', function (done) {
     done()
   });
