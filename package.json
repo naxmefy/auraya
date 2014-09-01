@@ -1,0 +1,6 @@
+{
+  "name": "MNTA",
+  "devDependencies": {
+    "mocha": "*",
+    "should: "*"
+  }
