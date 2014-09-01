@@ -1,6 +1,9 @@
 {
-  "name": "MNTA",
+  "name": "Auraya",
+  "version": "0.0.1",
+  "dependencies": {},
   "devDependencies": {
-    "mocha": "*",
-    "should: "*"
+    "mocha": "^1.21.4",
+    "should": "^4.0.4"
   }
+}
