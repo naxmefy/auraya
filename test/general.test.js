@@ -2,7 +2,7 @@ describe('General Test', function () {
   it('should', function (done) {
     done()
   });
-  it.skip('should do', function (done) {
+  it('should do', function (done) {
     done()
   });
   it.skip('should do too', function (done) {
