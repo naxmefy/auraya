@@ -1,9 +1,42 @@
 {
-  "name": "Auraya",
+  "name": "auraya",
   "version": "0.0.1",
-  "dependencies": {},
+  "description": "waf",
+  "preferGlobal": true,
+  "main": "./index.js",
+  "bin": {
+    "auraya": "./bin/auraya"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha",
+    "test-cov": "node_modules/.bin/mocha --require coffee-coverage/register-istanbul && istanbul report"
+  },
+  "keywords": [
+    "web",
+    "application",
+    "framework"
+  ],
+  "author": "naxmefy",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/naxmefy/auraya.git"
+  },
+  "bugs": {
+    "url": "https://github.com/naxmefy/auraya/issues"
+  },
+  "homepage": "https://github.com/naxmefy/auraya",
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.12.7",
+    "npm": ">=2.11"
+  },
+  "dependencies": {
+    "coffee-script": "^1.10.0"
+  },
   "devDependencies": {
-    "mocha": "^1.21.4",
-    "should": "^4.0.4"
+    "coffee-coverage": "^1.0.1",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.3.4",
+    "should": "^8.1.1"
   }
 }

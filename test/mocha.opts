@@ -1,4 +1,8 @@
---require should
---reporter spec
 --ui bdd
+--reporter spec
+--timeout 5000
 --recursive
+--colors
+--compilers coffee:coffee-script/register
+--require should
+--require test/helper.coffee
