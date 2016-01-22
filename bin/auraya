@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+
+//require('auraya-cli')(require('..'), process);

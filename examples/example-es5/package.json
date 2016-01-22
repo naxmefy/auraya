@@ -1,0 +1,21 @@
+{
+  "name": "example-auraya-project",
+  "version": "0.1.0",
+  "description": "a auraya application",
+  "main": "index.js",
+  "private": true,
+  "author": "naxmefy",
+  "license": "MIT",
+  "scripts": {
+    "start": "node run.js",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "supertest": "*"
+  },
+  "dependencies": {
+    "auraya": "file:../"
+  }
+}
